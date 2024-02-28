@@ -1,13 +1,14 @@
 
-p,h1,h2,h3,h4,h5,h6{
-  /* margin:  0px; */
-   
+
+ol {
+  counter-reset: section; 
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
 }
-ul{
-   list-style-type: none;
-   margin: 0px;
-   padding: 0px;
-}
+
+
+
 a{
    text-decoration: none;
    font-style: normal;
@@ -43,17 +44,15 @@ img {
   display: flex;
   flex-direction: column;
   background-color: #576F35;
-  align-items: flex-start;
-  /* width: 100%; */
-  padding:80px 20px;
+  align-items: center;
+  padding: 80px 20px;
 
 }
-.container_title{
-  /* width: 335px; */
+.container_title_order{
   padding-left: 20px;
 
 }
-.title{
+.title_order{
 color: #FBFBFB;
 font-family: "Inter Tight",sans-serif ;
 font-size: 28px;
@@ -63,7 +62,7 @@ line-height: 28px;
 letter-spacing: -0.42px;
 text-transform: uppercase;
 }
-.title_words{
+.title_words_order{
 color: rgba(251, 251, 251, 0.30);
 font-family: "Inter Tight",sans-serif;
 font-size: 28px;
@@ -73,7 +72,7 @@ line-height: 28px;
 letter-spacing: -0.42px;
 text-transform: uppercase;
 }
-.main_text{
+.main_text_order{
 color: #FBFBFB;
 font-family: "Inter Tight";
 font-size: 14px;
@@ -85,15 +84,76 @@ margin-top: 20px;
 .container_list{
   margin-top: 40px;
 }
-.main_list{
-  display: flex;
-  flex-direction: column;
-  row-gap: 20px;
-  align-items: center;
-  
-}
+
 .container_item{
   background-color: #FBFBFB;
   border-radius: 15px;
   padding: 12px 27px 12px 24px;
-  /* width: 335px; */}
+  display: flex;
+  justify-content: center;
+  
+}
+  
+  
+  .main_list{
+    
+    row-gap: 20px;
+    display: flex;
+    flex-direction: column;
+   
+   }
+   
+   .list_item{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+
+    
+   }
+   
+   /* .list_item ::before {
+     color: #FBFBFB;
+     font-family: "Inter Tight";
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 20px; 
+     letter-spacing: -0.4px;
+     counter-increment: section;
+     content: counters(section, "") "";
+     width: 42px;
+     height: 42px;
+     border-radius: 50%;
+     background-color: #7A3145 ;
+     border: 5px solid inherit rgba(122, 49, 69, 0.30) ;
+     display: flex;
+     flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    } */
+
+    .text_item{
+    color: rgba(20, 20, 20, 0.60);
+    font-family: "Studio Pro";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; 
+    letter-spacing: -0.24px;
+    }
+    .words_item{
+      color: #141414;
+      font-family: "Studio Pro";
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 14px;
+      letter-spacing: -0.24px;
+    }
+
+  
+
+    
+    

@@ -1,3 +1,37 @@
-.fresh-harvest {
-  background-color: yellow;
+
+/* .container{
+  max-width: 375px;
+  padding:0px 20px;
+  margin: 0px auto;
+} */
+.container_main{
+  background-color: #7A3145;
+  padding: 80px 20px;
+  width: 100%;
+}
+
+.container_title_fresh{
+  display: flex;
+  flex-direction: column;
+  width: 335px;
+}
+.title_fresh{
+  color: #FBFBFB;
+  font-family: "Inter Tight";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: -0.72px;
+  text-transform: uppercase;
+}
+.title_words_fresh{
+  color: rgba(251, 251, 251, 0.30);
+  font-family: "Inter Tight";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: -0.72px;
+  text-transform: uppercase;
 }

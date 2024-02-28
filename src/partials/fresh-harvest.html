@@ -1,5 +1,40 @@
 <section class="fresh-harvest">
   <div class="container">
-    <p>This is a Fresh harvest box section!</p>
+    <div class="container_title">
+      <h1 class="title">Fresh <span class="title_words">Harvest</span> Box has got you covered</h1>
+      <p class="main_text">Our boxes are packed with delicious, nutritious vegetables, perfect for anyone looking to eat healthier or support local farmers.
+           Order your box today and start enjoying the best that nature has to offer!</p>
+      </div>
+   <div class="container_form">
+      <h2 class="title_form">Ordering <span class="form_title_words">from us </span>is quick and easy! Fill out <span class="form_words"> the form</span> below and we will contact you !</h2>
+       <form class="fitback_form" novalidate autocomplete="off">
+          <div class="container_label">
+             <label class="form_item" for="user_name">Full Name</label>
+               <div class="input_container">
+                 <input class="input_label" type="text" name="user_name" id="user_name" >
+              </div>
+          </div>
+          <div class="container_label">
+          <label class="form_item" for="email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required>Email</label>
+          <div class="input_container">
+              <input class="input_label" type="email" name="email" id="email">
+          </div>
+      </div>
+      <div class="container_textarea">
+          <label class="form_item" for="user_comment">Comment</label>
+          <textarea class="container_comment" name="user_comment" id="user_comment"></textarea>
+      </div>
+          <button type="button" class="button_form">Send</button>
+       </form>
+      </div>
+      <div class="container_image">
+          <img src="../img/image_fresh-harvest/imgfresh-mob-2x.jpg" alt="shaker">
+          <p class="social_text">Follow us on our social networks:</p>
+          <ul class="social_list">
+             <li><a class="social_link">instagram</a></li>
+             <li><a class="social_link">facebook</a></li>
+             <li><a class="social_link">youtube</a></li>
+          </ul>
+      </div>
   </div>
 </section>

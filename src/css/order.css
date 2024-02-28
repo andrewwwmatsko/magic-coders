@@ -1,3 +1,101 @@
 .order {
   background-color: tomato;
 }
+p,h1,h2,h3,h4,h5,h6{
+  margin:  0px;
+   
+}
+ul{
+   list-style-type: none;
+   margin: 0px;
+   padding: 0px;
+}
+a{
+   text-decoration: none;
+   font-style: normal;
+ 
+}
+img {
+   display: block;
+  }
+
+.container{
+  max-width: 375px;
+  padding:0px 20px;
+  margin: 0px auto;
+}
+
+.container_image{
+  
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+ 
+
+}
+.image{
+  background-color: #7A3145;
+  width: 335px;
+  padding: 40px 20px  ;
+}
+
+.main_content{
+  display: flex;
+  flex-direction: column;
+  background-color: #576F35;
+  align-items: flex-start;
+  /* width: 100%; */
+  padding:80px 20px;
+
+}
+.container_title{
+  /* width: 335px; */
+  padding-left: 20px;
+
+}
+.title{
+color: #FBFBFB;
+font-family: "Inter Tight",sans-serif ;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px; 
+letter-spacing: -0.42px;
+text-transform: uppercase;
+}
+.title_words{
+color: rgba(251, 251, 251, 0.30);
+font-family: "Inter Tight",sans-serif;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: -0.42px;
+text-transform: uppercase;
+}
+.main_text{
+color: #FBFBFB;
+font-family: "Inter Tight";
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px;
+margin-top: 20px;
+}
+.container_list{
+  margin-top: 40px;
+}
+.main_list{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+  
+}
+.container_item{
+  background-color: #FBFBFB;
+  border-radius: 15px;
+  padding: 12px 27px 12px 24px;
+  /* width: 335px; */}

@@ -1,7 +1,7 @@
 .hero {
   border: 1px solid #000;
   margin-top: 40px;
-  width: 375px;
+  min-width: 375px;
   height: 712px;
   background-color: #576f35;
   background-image: url(../img/hero.images/hero.image.mobile.jpg);
@@ -13,7 +13,7 @@
   .hero {
     border: 1px solid #000;
     margin-top: 40px;
-    width: 375px;
+    min-width: 375px;
     height: 712px;
     background-color: #576f35;
     background-image: url(../img/hero.images/mob.retina.jpg);
@@ -50,7 +50,7 @@ p {
   .hero {
     border: 1px solid #000;
     margin-top: 156px;
-    width: 768px;
+    min-width: 768px;
     height: 902px;
     background-color: #576f35;
     background-image: url(../img/hero.images/hero.image.tablet.jpg);
@@ -62,7 +62,7 @@ p {
     .hero {
       border: 1px solid #000;
       margin-top: 156px;
-      width: 768px;
+      min-width: 768px;
       height: 902px;
       background-image: url(../img/hero.images/tablet.retina.jpg);
       background-position: bottom;

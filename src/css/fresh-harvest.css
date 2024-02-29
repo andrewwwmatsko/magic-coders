@@ -1,7 +1,7 @@
-.container_main{
+.fresh-harvest{
   background-color: #7A3145;
   padding: 80px 20px;
-  width: 375px;
+  width: 100%;
   
   
 }
@@ -9,7 +9,7 @@
 .container_title_fresh{
   display: flex;
   flex-direction: column;
-  width: 335px;
+  width: 100%;
   align-items: flex-start;
 }
 .title_fresh{
@@ -106,8 +106,40 @@ text-transform: uppercase;
   border-radius: 30px;
   border: 1px solid rgba(20, 20, 20, 0.20);
   height: 46px;
+  
 
 }
+.input_label:focus{
+
+    border-color: brown;
+}
+.input_label:not(:placeholder-shown):invalid {
+  border-color: red;
+}
+.input_label:not(:placeholder-shown):valid {
+  border-color: green;
+}
+.text-valid,
+.text-invalid {
+  font-size: 14px;
+  padding-left: 20px;
+  margin-top: 4px;
+  display: none;
+}
+.text-valid {
+  color: green;
+}
+
+.text-invalid {
+  color: red;
+}
+.input_label:not(:placeholder-shown):valid ~ .text-valid {
+  display: block;
+}
+.input_label:not(:placeholder-shown):invalid ~ .text-invalid {
+  display: block;
+}
+
 .input_label::placeholder,
 .container_comment::placeholder{
 color: #141414;
@@ -159,7 +191,7 @@ padding-left: 16px;
     border-radius: 30px;
     gap: 20px;
     padding: 40px 20px;
-}
+    object-fit:cover;}
 
 .container_social{
   display: flex;

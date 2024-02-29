@@ -21,7 +21,6 @@
 
 .footer-logo-p {
   display: flex;
-  flex-direction: column;
   align-items: flex-start;
   gap: 14px;
 }
@@ -31,8 +30,15 @@
   gap: 4px;
 }
 
-.footer-icon-item {
+.footer-logo-link {
+}
+
+.footer-logo-item {
   fill: #fbfbfb;
+}
+
+.footer-logo-green {
+  color: #fbfbfb;
 }
 
 .footer-logo-text {

@@ -1,25 +1,25 @@
 .hero {
   border: 1px solid #000;
-  margin-top: 40px;
-  min-width: 375px;
+  padding-top: 100px;
+  max-width: 375px;
   height: 712px;
   background-color: #576f35;
   background-image: url(../img/hero.images/hero.image.mobile.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 375px 370px;
 }
 @media (min-resolution: 192dpi) {
   .hero {
     border: 1px solid #000;
-    margin-top: 40px;
-    min-width: 375px;
+    padding-top: 100px;
+    max-width: 375px;
     height: 712px;
     background-color: #576f35;
     background-image: url(../img/hero.images/mob.retina.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 375px 370px;
   }
 }
 
@@ -49,69 +49,69 @@ p {
 @media screen and (min-width: 768px) {
   .hero {
     border: 1px solid #000;
-    margin-top: 156px;
+    padding-top: 122px;
     min-width: 768px;
     height: 902px;
     background-color: #576f35;
     background-image: url(../img/hero.images/hero.image.tablet.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 768px 539px;
   }
   @media (min-resolution: 192dpi) {
     .hero {
       border: 1px solid #000;
-      margin-top: 156px;
+      padding-top: 122px;
       min-width: 768px;
       height: 902px;
       background-image: url(../img/hero.images/tablet.retina.jpg);
       background-position: bottom;
       background-repeat: no-repeat;
-      background-size: 100%;
+      background-size: 768px 539px;
     }
   }
-  h1 {
-    font-family: 'Inter Tight', sans-serif;
-    font-weight: 600;
-    font-size: 76px;
-    line-height: 100%;
-    letter-spacing: -0.01em;
-    text-transform: uppercase;
-    color: #fbfbfb;
-    margin-bottom: 20px;
-  }
-  p {
-    font-family: 'Inter Tight', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 125%;
-    color: #fbfbfb;
-    margin-bottom: 40px;
-  }
 }
+h1 {
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 600;
+  font-size: 76px;
+  line-height: 76px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  margin-bottom: 20px;
+}
+p {
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fbfbfb;
+  margin-bottom: 40px;
+}
+
 @media screen and (min-width: 1280px) {
   .hero {
     border: 1px solid #000;
     padding: 0px 0px 0px 100px;
-    min-width: 1280px;
+    max-width: 1280px;
     height: 800px;
     background-color: #576f35;
     background-image: url(../img/hero.images/hero.image.descktop.jpg);
     background-position: right;
     background-repeat: no-repeat;
-    background-size: 50%;
-    margin-top: 150px;
+    background-size: 650px 800px;
   }
   @media (min-resolution: 192dpi) {
     .hero {
       border: 1px solid #000;
       padding: 0px 0px 0px 100px;
-      min-width: 1280px;
+      max-width: 1280px;
       height: 800px;
       background-image: url(../img/hero.images/descktop.retina.jpg);
       background-position: right;
       background-repeat: no-repeat;
-      background-size: 50%;
+      background-size: 650px 800px;
       gap: 28px;
     }
   }
@@ -124,9 +124,7 @@ p {
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #fbfbfb;
-    width: 502px;
-    height: 304px;
-    margin-top: 240px;
+    padding-top: 240px;
   }
 
   p {
@@ -145,5 +143,6 @@ p {
     padding: 0px, 0px, 50px, 0px;
     gap: 128px;
     position: absolute;
+    padding-top: 120px;
   }
 }

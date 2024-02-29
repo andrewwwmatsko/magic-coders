@@ -25,7 +25,7 @@
   font-family: 'Inter Tight';
   font-size: 14px;
   font-weight: 500;
-  line-height: 1.29; /* 128.571% */
+  line-height: 1.29;
   margin-top: 20px;
   margin-bottom: 40px;
 }
@@ -38,9 +38,8 @@
   border-radius: 40px;
   background: #fbfbfb;
   max-width: 334px;
-  /* width: 334px; */
 }
-.vegetables-item:not(:last-child) {
+.vegetables-item:not(:last-child):not(:first-child) {
   margin: 20px 0;
 }
 .vegetables-name {

@@ -8,7 +8,6 @@
 
 .vegetables-title {
   color: #fbfbfb;
-  font-family: 'Inter Tight';
   font-size: 48px;
   font-weight: 600;
   line-height: 1.04;
@@ -22,7 +21,6 @@
 
 .vegetables-text {
   color: #fbfbfb;
-  font-family: 'Inter Tight';
   font-size: 14px;
   font-weight: 500;
   line-height: 1.29;
@@ -44,7 +42,6 @@
 }
 .vegetables-name {
   color: #7a3145;
-  font-family: 'Inter Tight';
   font-size: 28px;
   font-weight: 600;
   line-height: 1;
@@ -53,7 +50,6 @@
 
 .vegetables-price {
   color: #141414;
-  font-family: 'Inter Tight';
   font-size: 14px;
   font-weight: 600;
   line-height: 1.29;

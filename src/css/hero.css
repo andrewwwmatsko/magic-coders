@@ -1,49 +1,44 @@
 .hero {
-  border: 1px solid #000;
-  padding-top: 100px;
   max-width: 375px;
   height: 712px;
-  background-color: #576f35;
+  background: #576f35;
   background-image: url(../img/hero.images/hero.image.mobile.jpg);
+  background-size: 375px 370px;
   background-position: bottom;
   background-repeat: no-repeat;
-  background-size: 375px 370px;
-}
-@media (min-resolution: 192dpi) {
-  .hero {
-    border: 1px solid #000;
-    padding-top: 100px;
-    max-width: 375px;
-    height: 712px;
-    background-color: #576f35;
-    background-image: url(../img/hero.images/mob.retina.jpg);
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: 375px 370px;
-  }
 }
 
-h1 {
+.hero-text {
+  width: 335px;
+  height: 302px;
+}
+.hero-tittle {
   font-family: 'Inter Tight', sans-serif;
+  color: #fbfbfb;
+  width: 335px;
+  height: 192;
+  margin-top: 100px;
+  margin-right: 20px;
+  margin-left: 20px;
   font-weight: 600;
   font-size: 48px;
   line-height: 100%;
   letter-spacing: -0.01em;
   text-transform: uppercase;
-  color: #fbfbfb;
-  margin-bottom: 20px;
 }
-
-p {
+.hero-paragraph {
   font-family: 'Inter Tight', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 129%;
   color: #fbfbfb;
-  margin-bottom: 40px;
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 335px;
+  height: 90px;
+  margin-top: 20px;
 }
-
-@media screen and (min-width: 375px), (max-width: 767px) {
+@media screen and (min-width: 320px), (max-wids: 375px) {
 }
 
 @media screen and (min-width: 768px) {
@@ -60,59 +55,48 @@ p {
   }
   @media (min-resolution: 192dpi) {
     .hero {
-      border: 1px solid #000;
-      padding-top: 122px;
-      min-width: 768px;
-      height: 902px;
       background-image: url(../img/hero.images/tablet.retina.jpg);
-      background-position: bottom;
-      background-repeat: no-repeat;
-      background-size: 768px 539px;
     }
   }
+}
+.text {
+  width: 704px;
+  height: 228px;
+  gap: 25px;
 }
 h1 {
   font-family: 'Inter Tight', sans-serif;
   font-weight: 600;
   font-size: 76px;
-  line-height: 76px;
+  line-height: 75px;
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #fbfbfb;
-  margin-bottom: 20px;
 }
-p {
+.hero-paragraph {
   font-family: 'Inter Tight', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #fbfbfb;
-  margin-bottom: 40px;
 }
 
 @media screen and (min-width: 1280px) {
   .hero {
     border: 1px solid #000;
     padding: 0px 0px 0px 100px;
-    max-width: 1280px;
+    min-width: 1280px;
     height: 800px;
     background-color: #576f35;
     background-image: url(../img/hero.images/hero.image.descktop.jpg);
     background-position: right;
     background-repeat: no-repeat;
     background-size: 650px 800px;
+    gap: 28px;
   }
   @media (min-resolution: 192dpi) {
     .hero {
-      border: 1px solid #000;
-      padding: 0px 0px 0px 100px;
-      max-width: 1280px;
-      height: 800px;
       background-image: url(../img/hero.images/descktop.retina.jpg);
-      background-position: right;
-      background-repeat: no-repeat;
-      background-size: 650px 800px;
-      gap: 28px;
     }
   }
 
@@ -120,21 +104,21 @@ p {
     font-family: 'Inter Tight', sans-serif;
     font-weight: 600;
     font-size: 76px;
-    line-height: 100%;
+
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #fbfbfb;
     padding-top: 240px;
   }
 
-  p {
+  .hero-paragraph {
     font-family: 'Inter Tight', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 125%;
     color: #fbfbfb;
     width: 472px;
-    height: 80px;
+
     margin-top: 120px;
   }
   .text {
@@ -142,7 +126,7 @@ p {
     height: 562px;
     padding: 0px, 0px, 50px, 0px;
     gap: 128px;
-    position: absolute;
     padding-top: 120px;
+    position: absolute;
   }
 }

@@ -107,7 +107,7 @@ max-width: 335px;
 }
 
  @media screen and (min-width: 1280px) {
-   .reviews--list {
+   .reviews-list {
     gap: 25px;
     flex-direction: row;
    }

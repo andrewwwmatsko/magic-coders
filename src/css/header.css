@@ -78,11 +78,13 @@ stroke: #fff;
 }
 
 .mob-menu-navigation{
-
+display: flex;
+justify-content: center;
+transform: translateY(168px);
 }
 
 .mob-menu-list{
-  padding: 240px 130px;
+
 }
 
 .mob-menu-item{
@@ -103,18 +105,9 @@ border: 1px solid rgba(251, 251, 251, 0.4);
   margin-bottom: 8px;
 }
 
-.mob-menu-item:hover{
-  background-color: #fbfbfb;
-  border: 1px solid rgba(251, 251, 251, 0.4);
-}
-
 .mob-menu-item:active{
   background-color: #fbfbfb;
   border: 1px solid rgba(251, 251, 251, 0.4);
-}
-
-.mob-menu-link:hover{
-  color: #7a3145;
 }
 
 .mob-menu-link:active{
@@ -125,10 +118,9 @@ color: #7a3145;
     border: 1px solid rgba(251, 251, 251, 0.2);
       border-radius: 30px;
       padding: 16px 41px;
-      width: 155px;
         height: 50px;
-      text-align: center;
-      display: block;
+        display: flex;
+        align-items: center;
 font-weight: 600;
         font-size: 14px;
         line-height: 1.29;
@@ -137,13 +129,7 @@ font-weight: 600;
         color: #fbfbfb;;
       cursor: pointer;
       background: #7a3145;
-      margin-left: 110px;
-      
-}
-
-.button-shop:hover{
-  color: #7a3145;
-  background-color: #fbfbfb;
+      margin:0 auto;
 }
 
 .button-shop:active {

@@ -1,26 +1,67 @@
 .vegetables {
-  background-color: blue;
+  background-color: #7a3145;
+  padding: 80px 0;
 }
 
 .container {
 }
 
 .vegetables-title {
+  color: #fbfbfb;
+  font-family: 'Inter Tight';
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.04;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.title-word {
+  color: rgba(251, 251, 251, 0.3);
 }
 
 .vegetables-text {
+  color: #fbfbfb;
+  font-family: 'Inter Tight';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .vegetables-list {
 }
 
 .vegetables-item {
+  padding: 32px 26px;
+  border-radius: 40px;
+  background: #fbfbfb;
+  max-width: 334px;
 }
-
+.vegetables-item:not(:last-child):not(:first-child) {
+  margin: 20px 0;
+}
 .vegetables-name {
+  color: #7a3145;
+  font-family: 'Inter Tight';
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.02em;
 }
 
 .vegetables-price {
+  color: #141414;
+  font-family: 'Inter Tight';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  margin-top: 12px;
+  margin-bottom: 14px;
+  margin-right: 0;
 }
 
 .vegetables-picture {

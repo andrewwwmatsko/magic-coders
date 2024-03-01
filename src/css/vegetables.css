@@ -62,3 +62,32 @@
 
 .vegetables-picture {
 }
+
+@media screen and (min-width: 768px) {
+  .vegetables-title {
+    font-size: 64px;
+    line-height: 1;
+  }
+  .vegetables-text {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+  .vegetables-name {
+    font-size: 32px;
+  }
+  .vegetables-item {
+    padding: 32px 30px;
+    width: calc((100%-20px) / 2);
+    width: 342px;
+  }
+  .vegetables-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 28px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+}

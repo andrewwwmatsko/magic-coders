@@ -67,6 +67,8 @@
 
 .list-steps {
   list-style: none;
+  padding: 0;
+  margin: 0;
   counter-reset: number 0;
 }
 

@@ -64,13 +64,20 @@
 }
 
 @media screen and (min-width: 768px) {
+  .vegetables {
+    padding: 100px 0;
+  }
   .vegetables-title {
     font-size: 64px;
     line-height: 1;
+    width: 508px;
   }
   .vegetables-text {
     font-size: 16px;
     line-height: 1.25;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    width: 626px;
   }
   .vegetables-name {
     font-size: 32px;
@@ -79,6 +86,7 @@
     padding: 32px 30px;
     width: calc((100%-20px) / 2);
     width: 342px;
+    height: 379px;
   }
   .vegetables-list {
     display: flex;
@@ -86,6 +94,12 @@
     flex-wrap: wrap;
     column-gap: 20px;
     row-gap: 28px;
+  }
+  .vegetables-item:not(:last-child):not(:first-child) {
+    margin: 0;
+  }
+  .vegetables-price {
+    margin-bottom: 10px;
   }
 }
 

@@ -27,10 +27,18 @@
        </form>
       </div>
       <div class="container_image_fresh">
-          <img 
-          srcset="./img/fresh/fresh-mob-1x.png 1x, ./img/fresh/fresh-mob-2x.png 2x"
-          src="./img/fresh/fresh-mob-2x.png" 
-          alt="shaker">
+        <picture>
+         <source media="(min-width: 1166px)" 
+         srcset="../img/fresh/fresh_decktop_1x.png 1x,
+         ../img/fresh/fresh_decktop_2x.png 2x"/>
+         <source  media="(min-width: 768px)" 
+         srcset="../img/fresh/fresh_tab_1x.png 1x,
+         ../img/fresh/fresh_tab_2x.png 2x"/> 
+         <source  media="(max-width: 767px)" 
+         srcset="../img/fresh/fresh-mob-1x.png 1x,
+         ../img/fresh/fresh-mob-2x.png 2x"/>
+ <img src="../img/fresh/fresh_tab_2x.png" alt="shaker">
+     </picture>
         
           <div class="container_social">
           <p class="social_text">Follow us on our social networks:</p>

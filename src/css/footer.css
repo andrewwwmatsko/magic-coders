@@ -39,7 +39,6 @@
   gap: 4px;
   color: #fbfbfb;
   font-weight: 500;
-  vertical-align: middle;
 }
 
 .footer-logo-text {
@@ -112,4 +111,61 @@
 
 .footer-privacy-p {
   line-height: 1.17;
+}
+
+/* ========== TABLET ========== */
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 32px 0;
+  }
+
+  .footer-info {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 224px;
+  }
+
+  .footer-logo-p {
+    gap: 25px;
+  }
+
+  .footer-icon-item {
+    width: 18px;
+    height: 18px;
+  }
+
+  .footer-icon-p {
+    font-weight: 900;
+  }
+
+  .footer-logo-text {
+    font-size: 16px;
+    line-height: 1.25em;
+  }
+
+  .footer-nav-list {
+    gap: 25px;
+  }
+
+  .footer-nav-link {
+    font-size: 32px;
+  }
+
+  .footer-adress {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.11;
+    letter-spacing: 0.015em;
+    gap: 25px;
+  }
+
+  .footer-privacy {
+    font-size: 18px;
+  }
+}
+
+/* ========== DESKTOP ========== */
+
+@media screen and (min-width: 1280px) {
 }

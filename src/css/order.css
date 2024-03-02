@@ -1,3 +1,115 @@
-.order {
-  background-color: tomato;
+
+ol {
+  counter-reset: section; 
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
 }
+.order_container{
+  background-color: #7A3145;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+.image{
+  padding: 40px 0px;
+  width: 100%;
+  
+}
+
+.main_content{
+  display: flex;
+  flex-direction: column;
+  background-color: #576F35;
+  align-items: flex-start;
+  padding: 80px 20px;
+  width: 375px;
+
+}
+
+  
+.title_order{
+color: #FBFBFB;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px; 
+letter-spacing: -0.42px;
+text-transform: uppercase;
+}
+.title_words_order{
+color: rgba(251, 251, 251, 0.30);
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: -0.42px;
+text-transform: uppercase;
+}
+.main_text_order{
+color: #FBFBFB;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px;
+margin-top: 20px;
+}
+
+
+  
+  
+  .main_list{
+    margin-top: 40px;
+    row-gap: 20px;
+    display: flex;
+    flex-direction: column;
+   
+   }
+   
+   .list_item{
+    background-color: #FBFBFB;
+    border-radius: 15px;
+    padding: 12px 27px 12px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 24px;
+    }
+   
+   
+
+    .text_item{
+    color: rgba(20, 20, 20, 0.60);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; 
+    letter-spacing: -0.24px;
+    }
+    .list_item::before{
+      color: #FBFBFB;
+      counter-increment: section;
+     content: counters(section, "") "";
+     width: 42px;
+     height: 42px;
+     border-radius: 50%;
+     background-color: #7A3145 ;
+     border: 5px solid #dfaebb ;
+     flex-shrink: 0;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 20px; 
+     letter-spacing: -0.4px;
+    }
+    .words_item{
+      color: #141414;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 14px;
+      letter-spacing: -0.24px;
+    }

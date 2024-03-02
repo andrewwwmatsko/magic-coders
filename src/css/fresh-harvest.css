@@ -193,7 +193,8 @@ letter-spacing: -0.28px;
   display: flex;
   flex-direction: column;
   justify-content: start;
-  width: 100%;
+  align-items: start;
+  width: 295px;
 }
 .social_text{
 color: rgba(251, 251, 251, 0.50);

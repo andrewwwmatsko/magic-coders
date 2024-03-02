@@ -1,6 +1,6 @@
 .fresh-harvest{
   background-color: #7A3145;
-  padding: 80px 20px;
+  padding: 80px 0px;
   width: 100%;
   }
   .container_main{
@@ -78,7 +78,7 @@ letter-spacing: -0.36px;
 text-transform: uppercase;
 
 }
-.fitback_form{
+.feedback_form{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -103,6 +103,7 @@ text-transform: uppercase;
   border: 1px solid rgba(20, 20, 20, 0.20);
   height: 46px;
   outline: none;
+  padding-left: 16px;
 
 }
 .input_label:focus{
@@ -145,7 +146,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 18px; 
 letter-spacing: -0.28px;
-padding-left: 16px;
+
 
 
 
@@ -159,10 +160,13 @@ padding-left: 16px;
   
 }
 .container_comment{
-  height: 92px;
-  border-radius: 15px;
+ height: 92px;
+ border-radius: 15px;
  border: 1px solid rgba(20, 20, 20, 0.20);
  outline: none;
+ padding-top: 14px;
+ padding-left: 16px;
+
 }
 .container_comment:focus{
   border-color: #576F35;
@@ -181,6 +185,8 @@ padding-left: 16px;
   line-height: 18px; 
   letter-spacing: -0.21px;
   text-transform: uppercase;
+  border:none ;
+
   }
   .container_image_fresh{
     margin-top: 20px;

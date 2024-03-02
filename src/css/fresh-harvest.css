@@ -12,12 +12,11 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  align-items: flex-start;
+  align-items: start;
 }
 .title_fresh{
   color: #FBFBFB;
   font-size: 48px;
-  font-style: normal;
   font-weight: 600;
   line-height: 50px;
   letter-spacing: -0.72px;
@@ -26,7 +25,6 @@
 .title_words_fresh{
   color: rgba(251, 251, 251, 0.30);
   font-size: 48px;
-  font-style: normal;
   font-weight: 600;
   line-height: 50px;
   letter-spacing: -0.72px;
@@ -35,7 +33,6 @@
 .main_text_fresh{
 color: #FBFBFB;
 font-size: 14px;
-font-style: normal;
 font-weight: 500;
 line-height: 18px;
 margin-top: 30px;
@@ -52,7 +49,6 @@ margin-top: 30px;
 .title_form{
 color: #141414;
 font-size: 24px;
-font-style: normal;
 font-weight: 600;
 line-height: 26px; 
 letter-spacing: -0.36px;
@@ -62,7 +58,6 @@ text-transform: uppercase;
 .form_title_words{
 color: #7A3145;
 font-size: 24px;
-font-style: normal;
 font-weight: 600;
 line-height: 26px;
 letter-spacing: -0.36px;
@@ -71,7 +66,6 @@ text-transform: uppercase;
 .form_words{
 color: #576F35;
 font-size: 24px;
-font-style: normal;
 font-weight: 600;
 line-height: 26px;
 letter-spacing: -0.36px;
@@ -142,7 +136,6 @@ text-transform: uppercase;
 color: #141414;
 text-align: start;
 font-size: 14px;
-font-style: normal;
 font-weight: 500;
 line-height: 18px; 
 letter-spacing: -0.28px;
@@ -178,9 +171,7 @@ letter-spacing: -0.28px;
   border-radius: 30px;
   background: #576F35;
   color: #FBFBFB;
-  font-family: "Inter Tight";
   font-size: 14px;
-  font-style: normal;
   font-weight: 600;
   line-height: 18px; 
   letter-spacing: -0.21px;

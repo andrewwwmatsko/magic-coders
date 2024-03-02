@@ -125,7 +125,7 @@
   color: #141414;
 }
 
-.point {
+/* .point {
   display: inline-flex;
   background-color: #7A3145;
   justify-content: center;
@@ -134,8 +134,8 @@
   min-height: 42px;
   border-radius: 50%;
 
-}
-
+} */
+/* 
 .figures-number {
   display: inline-flex;
   font-size: 20px;
@@ -150,4 +150,4 @@
   border-radius: 50%;
   background-color: rgba(122, 49, 69, 0.30);
   margin-right: 24px;
-}
+} */

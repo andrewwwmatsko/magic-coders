@@ -66,7 +66,12 @@
 
 .list-steps {
   list-style-type: none;
+  /* counter-reset: number 0; */
 }
+
+/* .list-steps li{
+  counter-increment: number ;
+} */
 
 .section-instructions li:not(:last-child) {
   margin-bottom: 20px;

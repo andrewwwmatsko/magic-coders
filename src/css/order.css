@@ -67,12 +67,34 @@
 
 .list-steps {
   list-style: none;
-  /* counter-reset: number 0; */
+  counter-reset: number 0;
 }
 
-/* .list-steps li{
-  counter-increment: number ;
-} */
+.list-text::before{
+  counter-increment: number;
+  content: counter(number);
+  display: inline-flex;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.4px;
+    color: #FBFBFB;
+    justify-content: center;
+    align-items: center;
+    min-width: 52px;
+    min-height: 52px;
+    border-radius: 50%;
+    background-color: rgba(122, 49, 69, 0.30);
+    margin-right: 24px;
+    display: inline-flex;
+    background-color: #7A3145;
+    justify-content: center;
+    align-items: center;
+    min-width: 42px;
+    min-height: 42px;
+    border-radius: 50%;
+  
+}
 
 .section-instructions li:not(:last-child) {
   margin-bottom: 20px;

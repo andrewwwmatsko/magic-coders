@@ -29,17 +29,14 @@
   cursor: pointer;
 }
 
-.footer-logo-list {
-  display: flex;
-  gap: 4px;
-}
-
 .footer-icon-item {
   fill: #fbfbfb;
-  vertical-align: middle;
 }
 
 .footer-icon-p {
+  display: flex;
+  align-items: center;
+  gap: 4px;
   color: #fbfbfb;
   font-weight: 500;
   vertical-align: middle;

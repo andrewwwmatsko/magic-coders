@@ -16,14 +16,15 @@
 }
 
 .order-container {
-  padding: 0;
+  max-width: 375px;
 }
 
 .section-pictures {
   display: flex;
   justify-content: center;
-  background: #7A3145;
+  background-color: #7A3145;
   padding: 40px 20px;
+  margin: 0 auto;
 }
 
 .section-instructions {
@@ -65,7 +66,7 @@
 }
 
 .list-steps {
-  list-style-type: none;
+  list-style: none;
   /* counter-reset: number 0; */
 }
 

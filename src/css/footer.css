@@ -99,6 +99,8 @@
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 0.015em;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .footer-privacy-list {

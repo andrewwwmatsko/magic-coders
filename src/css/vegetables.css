@@ -103,5 +103,13 @@
   }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1120px) {
+  .vegetables-item {
+    padding: 32px;
+    width: calc((100%-42px) / 3);
+    width: 346px;
+  }
+  .vegetables-list {
+    column-gap: 21px;
+  }
 }

@@ -199,7 +199,6 @@ letter-spacing: -0.28px;
 .social_text{
 color: rgba(251, 251, 251, 0.50);
 font-size: 14px;
-font-style: normal;
 font-weight: 600;
 line-height: 18px; 
 letter-spacing: -0.21px;
@@ -216,7 +215,6 @@ letter-spacing: -0.21px;
 .social_link{
 color: #FBFBFB;
 font-size: 24px;
-font-style: normal;
 font-weight: 600;
 line-height: 26px; 
 letter-spacing: -0.36px;

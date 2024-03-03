@@ -14,12 +14,12 @@
 
 @media screen and (min-width: 1280px) {
   .order {
-    display: flex;
-    justify-content: center;
     background: linear-gradient(to right,
       #7a3145 0% 44.76%,
       #576f35 44.76% 100%);
-    }
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .visually-hidden {
@@ -47,6 +47,8 @@
 @media screen and (min-width: 1280px) {
   .order-container {
     max-width: 1280px;
+    display: flex;
+    justify-content: center;
   }
 }
 

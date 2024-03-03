@@ -1,7 +1,25 @@
 .order {
   background: linear-gradient(to bottom,
-        #7a3145 0% 44.76%,
-        #576f35 44.76% 100%);
+    #7a3145 0% 44.76%,
+    #576f35 44.76% 100%);
+}
+
+@media screen and (min-width: 768px) {
+  .order {
+    background: linear-gradient(to bottom,
+      #7a3145 0% 54.64%,
+      #576f35 54.64% 100%);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+  .order {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right,
+      #7a3145 0% 44.76%,
+      #576f35 44.76% 100%);
+    }
 }
 
 .visually-hidden {
@@ -20,6 +38,17 @@
 .order-container {
   max-width: 375px;
 }
+@media screen and (min-width: 768px) {
+  .order-container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .order-container {
+    max-width: 1280px;
+  }
+}
 
 .section-pictures {
   display: flex;
@@ -27,6 +56,18 @@
   /* background-color: #7A3145; */
   padding: 40px 20px;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .section-pictures {
+    padding: 100px 64px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section-pictures {
+    padding: 100px;
+  }
 }
 
 .section-instructions {
@@ -38,9 +79,33 @@
   padding: 80px 20px;
 }
 
+@media screen and (min-width: 768px) {
+  .section-instructions {
+    padding: 100px 159px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section-instructions {
+    padding: 100px 100px 160px;
+  }
+}
+
 .picture-woman {
   border-radius: 30px;
   max-width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .picture-woman {
+    width: 640px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .picture-woman {
+    width: 430px;
+  }
 }
 
 .order-headline {
@@ -52,6 +117,14 @@
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .order-headline {
+    font-size: 32px;
+    width: 450px;
+    margin-bottom: 25px;
+  }
 }
 
 .order-headline-title {
@@ -67,11 +140,26 @@
   margin-bottom: 40px;
 }
 
+@media screen and (min-width: 768px) {
+  .order-headline-text {
+    font-size: 16px;
+    line-height: 125%;
+    margin-bottom: 50px;
+    width: 450px;
+  }
+}
+
 .list-steps {
   list-style: none;
   padding: 0;
   margin: 0;
   counter-reset: number 0;
+}
+
+@media screen and (min-width: 768px) {
+  .list-steps {
+    width: 450px;
+  }
 }
 
 .list-text::before{

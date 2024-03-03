@@ -70,6 +70,7 @@
 @media screen and (min-width: 1280px) {
   .section-pictures {
     padding: 100px;
+    padding-top: 0;
   }
 }
 
@@ -90,7 +91,7 @@
 
 @media screen and (min-width: 1280px) {
   .section-instructions {
-    padding: 100px 100px 160px;
+    padding: 0px 100px 160px;
   }
 }
 

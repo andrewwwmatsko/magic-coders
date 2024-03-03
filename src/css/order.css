@@ -82,22 +82,24 @@
     letter-spacing: -0.4px;
     color: #FBFBFB;
     
-    justify-content: center;
+    /* justify-content: center;
     align-items: center;
     min-width: 52px;
     min-height: 52px;
     border-radius: 50%;
-    background-color: rgba(122, 49, 69, 0.30);
+    background-color: rgba(122, 49, 69, 0.30); */
 
     margin-right: 24px;
     background-color: #7A3145;
     justify-content: center;
     align-items: center;
-    min-width: 42px;
-    min-height: 42px;
+    min-width: 52px;
+    min-height: 52px;
     border-radius: 50%;
     
-    border: 5px solid rgba(122, 49, 69, 0.30);
+    /* border: 5px solid rgba(122, 49, 69, 0.30); */
+    
+    border: 5px solid rgba(211, 190, 196, 1);
   }
 
 /* .list-text {

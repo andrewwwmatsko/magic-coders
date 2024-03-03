@@ -2,7 +2,7 @@
   padding-top: 100px;
   padding-bottom: 410px;
   background-color: #576f35;
-  background-image: url(../img/hero/mobile-hero1x-min.jpg);
+  background-image: url(./img/hero/mobile-hero1x-min.jpg);
   background-repeat: no-repeat;
   background-size: 375px 370px;
   background-position: bottom;
@@ -10,7 +10,7 @@
 
 @media (min-resolution: 192dpi) {
   .hero {
-    background-image: url(../img/hero/mobile-hero2x-min.jpg);
+    background-image: url(./img/hero/mobile-hero2x-min.jpg);
   }
 }
 
@@ -22,8 +22,6 @@
   line-height: 1;
   letter-spacing: -0.01em;
   text-transform: uppercase;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 .hero-text {
   max-width: 335px;

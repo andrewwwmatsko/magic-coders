@@ -66,4 +66,24 @@
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 
 @media screen and (min-width: 1280px) {
+  .hero {
+    padding-top: 238px;
+    padding-bottom: 50px;
+    background-image: url(../img/hero/desktop-hero1x-min.jpg);
+    background-size: 650px 800px;
+    background-position: right;
+  }
+  @media (min-resolution: 192dpi) {
+    .hero {
+      background-image: url(../img/hero/desktop-hero2x-min.jpg);
+    }
+  }
+  .hero-title {
+    max-width: 502px;
+  }
+
+  .hero-text {
+    max-width: 472px;
+    margin-top: 128px;
+  }
 }

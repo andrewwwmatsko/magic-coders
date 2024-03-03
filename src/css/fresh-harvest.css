@@ -235,19 +235,21 @@ letter-spacing: -0.015em;
   align-content: flex-start;
   gap: 8px;
   flex-wrap: wrap;
+  
 }
 .social_link{
+position: relative;
 color: #FBFBFB;
 font-size: 24px;
 font-weight: 600;
 line-height: 1.1; 
 letter-spacing: -0.015em;
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 
 }
 .social_link:hover,
 .social_link:focus{
-  color:#a1e621;
+  transform: scale(1.1);
 }
 
 @media screen and (min-width: 768px) {

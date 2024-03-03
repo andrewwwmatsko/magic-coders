@@ -10,7 +10,7 @@
 
 @media (min-resolution: 192dpi) {
   .hero {
-    background-image: url(..img/hero/mobile-hero2x-min.jpg);
+    background-image: url(../img/hero/mobile-hero2x-min.jpg);
   }
 }
 
@@ -67,10 +67,13 @@
     max-width: 603px;
     color: #fbfbfb;
     font-weight: 500;
-    line-height: 1.12;
+    line-height: 125%;
     margin-top: 25px;
   }
 }
+
+/*::::::::::::::::::::::D E S K T O P:::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 
 @media screen and (min-width: 1280px) {
 }

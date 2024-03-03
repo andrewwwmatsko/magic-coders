@@ -42,6 +42,11 @@ margin-top: 30px;
  background: #FBFBFB;
  padding: 40px 20px;
  margin-top: 40px;
+ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
+.container_form:focus,
+.container_form:hover{
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 
@@ -97,9 +102,11 @@ text-transform: uppercase;
   height: 46px;
   outline: none;
   padding-left: 16px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 
 }
-.input_label:focus{
+.input_label:focus,
+.input_label:hover{
 
     border-color: #576F35;
 }
@@ -160,17 +167,20 @@ letter-spacing: -0.02em;
  padding-top: 14px;
  padding-left: 16px;
  resize: none;
+ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 
 }
-.container_comment:focus{
+.container_comment:focus,
+.container_comment:hover{
   border-color: #576F35;
+  
 }
 .button_form{
   margin-top: 20px;
   width: 295px;
   padding:16px 0px ;
   border-radius: 30px;
-  background: #576F35;
+  background-color: #576F35;
   color: #FBFBFB;
   font-size: 14px;
   font-weight: 600;
@@ -178,7 +188,13 @@ letter-spacing: -0.02em;
   letter-spacing: -0.015em;
   text-transform: uppercase;
   border:none ;
-
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  }
+  .button_form:hover,
+  .button_form:focus{
+    background-color: #38550f ;
+   
+    
   }
   .container_image_fresh{
     margin-top: 20px;
@@ -189,7 +205,13 @@ letter-spacing: -0.02em;
     border-radius: 30px;
     row-gap: 20px;
     padding: 40px 20px;
-    object-fit:cover;}
+    object-fit:cover;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
+.container_image_fresh:focus,
+.container_image_fresh:hover{
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
 
 .container_social{
   display: flex;
@@ -213,6 +235,7 @@ letter-spacing: -0.015em;
   align-content: flex-start;
   gap: 8px;
   flex-wrap: wrap;
+  
 }
 .social_link{
 color: #FBFBFB;
@@ -220,7 +243,20 @@ font-size: 24px;
 font-weight: 600;
 line-height: 1.1; 
 letter-spacing: -0.015em;
+transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+
 }
+.social_icon{
+  display: flex;
+}
+.social_icon:hover,
+.social_icon:focus{
+  transform: scale(1.1);
+}
+.social_icon{
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
+
 @media screen and (min-width: 768px) {
  
   .fresh-harvest{

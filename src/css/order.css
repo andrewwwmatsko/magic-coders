@@ -1,8 +1,7 @@
 .order {
-  /* background: #576F35; */
-  background: linear-gradient (to bottom,
+  background: linear-gradient(to bottom,
         #7a3145 0% 44.76%,
-        #576f35 44.76%6 100%);
+        #576f35 44.76% 100%);
 }
 
 .visually-hidden {
@@ -20,9 +19,6 @@
 
 .order-container {
   max-width: 375px;
-  /* background: linear-gradient(to bottom,
-        #7a3145 50%,
-        #576f35 50%); */
 }
 
 .section-pictures {
@@ -108,15 +104,6 @@
     border: 5px solid rgba(211, 190, 196, 1);
   }
 
-/* .list-text {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  min-width: 52px;
-  min-height: 52px;
-  border-radius: 50%;
-  background-color: rgba(122, 49, 69, 0.30);
-} */
 
 .section-instructions li:not(:last-child) {
   margin-bottom: 20px;

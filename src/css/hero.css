@@ -1,3 +1,42 @@
 .hero {
-  background-color: red;
+  padding-top: 100px;
+  padding-bottom: 410px;
+  background-color: #576f35;
+  background-image: url(./img/hero/mobile-hero1x-min.jpg);
+  background-repeat: no-repeat;
+  background-size: 375px 370px;
+  background-position: bottom;
+}
+
+@media (min-resolution: 192dpi) {
+  .hero {
+    background-image: url(./img/hero/mobile-hero2x-min.jpg);
+  }
+}
+
+.hero-title {
+  max-width: 335px;
+  color: #fbfbfb;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
+.hero-text {
+  max-width: 335px;
+  color: #fbfbfb;
+
+  font-weight: 500;
+  line-height: 1.12;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 320px), (max-width: 375px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1280px) {
 }

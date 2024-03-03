@@ -167,13 +167,10 @@
     font-size: 32px;
   }
 
-  .footer-adress {
-    gap: 25px;
-  }
-
   .footer-adress-list {
     font-size: 18px;
     line-height: 1.11;
+    gap: 25px;
   }
 
   .footer-privacy {

@@ -1,5 +1,58 @@
 <section class="fresh-harvest">
-  <div class="container">
-    <p>This is a Fresh harvest box section!</p>
-  </div>
+  <div class="container container_main">
+  
+    <div class="container_title_fresh">
+      <h2 class="title_fresh">Fresh <span class="title_words_fresh">Harvest</span> Box has got you covered</h2>
+      <p class="main_text_fresh">Our boxes are packed with delicious, nutritious vegetables, perfect for anyone looking to eat healthier or support local farmers.
+           Order your box today and start enjoying the best that nature has to offer!</p>
+      </div>
+      <div class="container_content">
+      <div class="container_form">
+    
+      <form class="feedback_form" novalidate autocomplete="off">
+        <h2 class="title_form">Ordering <span class="form_title_words">from us </span>is quick and easy! Fill out <span class="form_words"> the form</span> below and we will contact you !</h2>
+          <div class="container_label">
+               <div class="input_container">
+                 <input class="input_label" type="text" name="user_name" id="user_name" placeholder="Full Name" >
+              </div>
+          <div class="input_container">
+            <input class="input_label" type="email" name="email" placeholder="Email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required>
+              <p class="text-valid">Succes!</p>
+              <p class="text-invalid">Invalid email, try again</p>
+          </div>
+      
+      <div class="container_textarea">
+          <textarea type="submit" class="container_comment" name="user_comment" id="user_comment" placeholder="Comment"></textarea>
+      </div>
+    </div>
+          <button type="submit" class="button_form">Send</button>
+       </form>
+      </div>
+      <div class="container_image_fresh">
+        <picture>
+         <source media="(min-width: 1280px)" 
+         srcset="./img/fresh/fresh_decktop_1x.png 1x,
+         ./img/fresh/fresh_decktop_2x.png 2x"/>
+         <source  media="(min-width: 768px)" 
+         srcset="./img/fresh/fresh_tab_1x.png 1x,
+         ./img/fresh/fresh_tab_2x.png 2x"/> 
+         <source  media="(max-width: 767px)" 
+         srcset="./img/fresh/fresh-mob-1x.png 1x,
+         ./img/fresh/fresh-mob-2x.png 2x"/>
+ <img src="./img/fresh/fresh_tab_2x.png" alt="shaker">
+     </picture>
+        
+          <div class="container_social">
+          <p class="social_text">Follow us on our social networks:</p>
+          <ul class="social_list">
+             <li><a class="social_link" href="https://www.instagram.com/goitclub/" target="_blank"  >instagram</a></li>
+             <li class="social_link">/</li>
+             <li><a class="social_link" href="https://www.facebook.com/goITclub/" target="_blank">facebook</a></li>
+             <li class="social_link">/</li>
+             <li><a class="social_link" href="https://www.youtube.com/c/GoIT" target="_blank">youtube</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</div>
 </section>

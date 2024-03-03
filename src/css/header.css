@@ -13,27 +13,42 @@
 
 
 .header {
-  background-color: aqua;
- /* position: absolute; */
+ position: absolute;
+}
+
+.header-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-navigation{
+      display: flex;
+        align-items: center;
+        flex-grow: 1;
 }
 
 
 .header-logo{
 padding: 20px 0 0 20px;
+
 }
 
 .header-icon-logo{
 fill: #fbfbfb;
 }
 
+.green{
+  flex-shrink: 0;
+  margin-left: 4px;
+}
+
 .header-logo-link{
   color: #fbfbfb;
-  display: flex;
-    align-items: center;
-    gap: 4px;
     font-weight: 500;
-    vertical-align: middle;
     margin-right: 135px;
+    flex-shrink: 0;
+    padding: 20px 0 ;
 }
 
  .button-vector{

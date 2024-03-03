@@ -19,6 +19,7 @@
       #576f35 44.76% 100%);
     display: flex;
     justify-content: center;
+    padding: 100px;
   }
 }
 
@@ -72,14 +73,14 @@
   }
 }
 
-.section-instructions {
+/* .section-instructions {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background-color: #576F35; */
+  background-color: #576F35;
   padding: 80px 20px;
-}
+} */
 
 @media screen and (min-width: 768px) {
   .section-instructions {
@@ -204,7 +205,7 @@
   border-radius: 15px;
   background-color: #FBFBFB;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   padding: 12px 24px;
 }
 

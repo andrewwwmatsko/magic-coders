@@ -17,22 +17,32 @@
  /* position: absolute; */
 }
 
+.header-logo{
+padding: 20px 0 0 20px;
+}
+
 .header-icon-logo{
-fill: transparent;
-stroke: #fbfbfb;
+fill: #fbfbfb;
 }
 
-.logo-text{
-
+.header-logo-link{
+  color: #fbfbfb;
+  display: flex;
+    align-items: center;
+    gap: 4px;
+    font-weight: 500;
+    vertical-align: middle;
+    margin-right: 135px;
 }
 
-.button-vector{
+ .button-vector{
     border: none;
     padding: 0;
     background-color: transparent;
     line-height: 0;
     cursor: pointer;
-}
+    
+} 
 
 .vector{
   fill: transparent; 

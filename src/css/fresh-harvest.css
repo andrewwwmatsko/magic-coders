@@ -147,7 +147,7 @@ letter-spacing: -0.02em;
   display: flex;
   flex-direction: column;
   width: 295px;
-  resize: none;
+ 
   
   
   
@@ -159,6 +159,7 @@ letter-spacing: -0.02em;
  outline: none;
  padding-top: 14px;
  padding-left: 16px;
+ resize: none;
 
 }
 .container_comment:focus{

@@ -13,11 +13,32 @@
 
 
 .header {
- 
+  background-color: aqua;
+ /* position: absolute; */
 }
 
 .header-icon-logo{
+fill: transparent;
+stroke: #fbfbfb;
+}
 
+.logo-text{
+
+}
+
+.button-vector{
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    line-height: 0;
+    cursor: pointer;
+}
+
+.vector{
+  fill: transparent; 
+  stroke-width: 3px;
+     stroke: #fbfbfb;
+    background-color: transparent;
 }
 
 
@@ -28,13 +49,12 @@
 
 
 .mob-menu{
-width: 100vw;
-  height: 100vh;
+width: 100%;
+  height: 100%;
   position: fixed;
   top: 0;
   left: 0;
   background: #7a3145;
-      padding: 72px 24px 40px 16px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -42,7 +62,7 @@ width: 100vw;
         opacity: 0;
         pointer-events: none;
         visibility: hidden;
-        transition: opasity 250ms ease-in-out, visibility 250ms ease-in-out;
+        transition: opaсity 250ms ease-in-out, visibility 250ms ease-in-out;
 }
 
 .is-open {
@@ -52,8 +72,9 @@ width: 100vw;
 }
 
 .mob{
-margin-bottom: 340px;
-
+  display: flex;
+flex-direction: column;
+padding-top: 240px;
 }
 
 .menu-close-btn{
@@ -78,9 +99,11 @@ stroke: #fff;
 }
 
 .mob-menu-navigation{
-display: flex;
+  margin: 0 auto;
+/* display: flex; */
 justify-content: center;
-transform: translateY(168px);
+/* transform: translateY(168px); */
+
 }
 
 .mob-menu-list{

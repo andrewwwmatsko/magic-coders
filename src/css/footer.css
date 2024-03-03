@@ -5,7 +5,7 @@
 }
 
 .footer-container {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 80px;
@@ -39,7 +39,6 @@
   gap: 4px;
   color: #fbfbfb;
   font-weight: 500;
-  vertical-align: middle;
 }
 
 .footer-logo-text {
@@ -78,16 +77,22 @@
   width: 215px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 14px;
   color: #fbfbfb;
+  gap: 14px;
 }
+
 .footer-adress-list {
   display: flex;
   width: 215px;
   flex-direction: column;
   align-items: flex-start;
   gap: 14px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.29;
+  letter-spacing: 0.015em;
 }
+
 .footer-privacy {
   display: flex;
   align-items: center;
@@ -112,4 +117,96 @@
 
 .footer-privacy-p {
   line-height: 1.17;
+}
+
+/* ========== TABLET ========== */
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 32px 0;
+  }
+
+  .footer-container {
+    gap: 100px;
+  }
+
+  .footer-info {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 224px;
+  }
+
+  .footer-logo-p {
+    gap: 25px;
+  }
+
+  .footer-icon-item {
+    width: 18px;
+    height: 18px;
+  }
+
+  .footer-icon-p {
+    font-weight: 900;
+  }
+
+  .footer-logo-text {
+    font-size: 16px;
+    line-height: 1.25em;
+    max-width: 265px;
+  }
+
+  .footer-nav {
+    gap: 64px;
+  }
+
+  .footer-nav-list {
+    gap: 25px;
+  }
+
+  .footer-nav-link {
+    font-size: 32px;
+  }
+
+  .footer-adress-list {
+    font-size: 18px;
+    line-height: 1.11;
+    gap: 25px;
+  }
+
+  .footer-privacy {
+    font-size: 18px;
+  }
+}
+
+/* ========== DESKTOP ========== */
+
+@media screen and (min-width: 1280px) {
+  .footer {
+    padding: 50px 0;
+  }
+
+  .footer-info {
+    gap: 302px;
+  }
+
+  .footer-logo-p {
+    width: 265px;
+  }
+
+  .footer-container {
+    gap: 125px;
+  }
+
+  .footer-nav {
+    flex-direction: row;
+    gap: 121px;
+  }
+
+  .footer-nav-list {
+    /* width: 177px; */
+  }
+
+  .footer-adress-list {
+    letter-spacing: 0.015em;
+  }
 }

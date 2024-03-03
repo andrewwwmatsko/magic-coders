@@ -39,14 +39,10 @@
 
 @media screen and (min-width: 768px) {
   .hero {
-    min-width: 768px;
     padding-top: 122px;
     padding-bottom: 589px;
-    background-color: #576f35;
     background-image: url(../img/hero/tablet-hero1x-min.jpg);
-    background-repeat: no-repeat;
     background-size: 768px 539px;
-    background-position: bottom;
   }
   @media (min-resolution: 192dpi) {
     .hero {
@@ -55,18 +51,12 @@
   }
   .hero-title {
     max-width: 704px;
-    color: #fbfbfb;
     font-size: 76px;
     font-weight: 600;
-    line-height: 1;
-    letter-spacing: -0.01em;
-    text-transform: uppercase;
   }
 
   .hero-text {
     max-width: 603px;
-    color: #fbfbfb;
-    font-weight: 500;
     line-height: 125%;
     margin-top: 25px;
   }

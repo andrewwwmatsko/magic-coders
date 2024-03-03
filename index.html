@@ -19,7 +19,7 @@
       referrerpolicy="no-referrer"
     />
     
-    <link rel="stylesheet" href="/magic-coders/assets/index-7074ecb0.css">
+    <link rel="stylesheet" href="/magic-coders/assets/index-64fd2462.css">
   </head>
   <body>
     <header class="header">
@@ -240,7 +240,9 @@
       <p class="main_text_fresh">Our boxes are packed with delicious, nutritious vegetables, perfect for anyone looking to eat healthier or support local farmers.
            Order your box today and start enjoying the best that nature has to offer!</p>
       </div>
-   <div class="container_form">
+      <div class="container_content">
+      <div class="container_form">
+    
       <form class="feedback_form" novalidate autocomplete="off">
         <h2 class="title_form">Ordering <span class="form_title_words">from us </span>is quick and easy! Fill out <span class="form_words"> the form</span> below and we will contact you !</h2>
           <div class="container_label">
@@ -261,10 +263,16 @@
        </form>
       </div>
       <div class="container_image_fresh">
-          <img 
-          srcset="/magic-coders/assets/fresh-mob-1x-a04e84f8.png 1x, /magic-coders/assets/fresh-mob-2x-66d4bd14.png 2x"
-          src="/magic-coders/assets/fresh-mob-2x-66d4bd14.png" 
-          alt="shaker">
+        <picture>
+         <source media="(min-width: 1280px)" 
+         srcset="./img/fresh/fresh_decktop_1x.png 1x,
+         ./img/fresh/fresh_decktop_2x.png 2x"/>
+         <source  media="(min-width: 768px)" 
+         srcset="/magic-coders/assets/fresh_tab_1x-deb0fef3.png 1x, /magic-coders/assets/fresh_tab_2x-b3093de2.png 2x"/> 
+         <source  media="(max-width: 767px)" 
+         srcset="/magic-coders/assets/fresh-mob-1x-a04e84f8.png 1x, /magic-coders/assets/fresh-mob-2x-66d4bd14.png 2x"/>
+ <img src="/magic-coders/assets/fresh_tab_2x-b3093de2.png" alt="shaker">
+     </picture>
         
           <div class="container_social">
           <p class="social_text">Follow us on our social networks:</p>
@@ -277,7 +285,7 @@
           </ul>
         </div>
       </div>
-  
+    </div>
 </div>
 </section>
 

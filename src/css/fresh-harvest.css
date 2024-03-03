@@ -147,6 +147,7 @@ letter-spacing: -0.02em;
   display: flex;
   flex-direction: column;
   width: 295px;
+  resize: none;
   
   
   

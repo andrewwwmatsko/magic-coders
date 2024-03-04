@@ -35,7 +35,7 @@ fill: #fbfbfb;
 .header-logo-link{
   color: #fbfbfb;
     font-weight: 500;
-    margin-right: 135px;
+    /* margin-right: 135px; */
     flex-shrink: 0;
     display: flex;
       align-items: center;
@@ -56,6 +56,25 @@ fill: #fbfbfb;
     background-color: transparent;
 }
 
+@media screen and (min-width:768px ) {
+  .header-icon-logo{
+    width: 18px;
+    height: 18px;
+  }
+
+  .header-logo-link{
+    font-weight: 700;
+  }
+
+  .vector{
+    width: 40px;
+    height: 40px;
+  }
+
+  .green{
+    margin-left: 8px;
+  }
+}
 
 
 
@@ -79,13 +98,13 @@ width: 100%;
         visibility: hidden;
         transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
           visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+          padding-bottom: 40px;
 }
 
 .is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-  padding-bottom: 40px;
 }
 
 .mob{
@@ -120,8 +139,6 @@ stroke: #fff;
   margin: 0 auto;
 /* display: flex; */
 justify-content: center;
-/* transform: translateY(168px); */
-
 }
 
 .mob-menu-list{
@@ -178,13 +195,21 @@ font-weight: 600;
   background-color: #fbfbfb;
 }
 
-@media screen and (min-width:375px) {
-
-}
-
 @media screen and (min-width:768px) {
 
-  .icon-menu-close-btn{
-   
-  }
+.mob-menu{
+  width: 351px;
+  transform: translateX(120%);
+}
+
+
+.menu-close-btn{
+  width: 40px;
+  height: 40px;
+}
+
+.button-shop{
+    padding: 16px 32px;
+    height: 52px;
+}
 }

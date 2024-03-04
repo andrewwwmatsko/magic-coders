@@ -27,6 +27,16 @@
 
 .footer-logo {
   cursor: pointer;
+  opacity: 1;
+  transition: opacity 500ms;
+}
+
+.footer-logo:hover {
+  opacity: 0.5;
+}
+
+.footer-logo:focus {
+  opacity: 0.5;
 }
 
 .footer-icon-item {
@@ -70,6 +80,14 @@
   font-weight: 600;
   line-height: 1;
   letter-spacing: -0.015em;
+  opacity: 1;
+  transition: opacity 500ms;
+}
+.footer-nav-link:hover {
+  opacity: 0.5;
+}
+.footer-nav-link:focus {
+  opacity: 0.5;
 }
 
 .footer-adress {
@@ -183,6 +201,7 @@
 @media screen and (min-width: 1280px) {
   .footer {
     padding: 50px 0;
+    width: 1280px;
   }
 
   .footer-info {
@@ -200,10 +219,6 @@
   .footer-nav {
     flex-direction: row;
     gap: 121px;
-  }
-
-  .footer-nav-list {
-    /* width: 177px; */
   }
 
   .footer-adress-list {

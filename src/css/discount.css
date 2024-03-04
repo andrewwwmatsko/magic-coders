@@ -64,6 +64,9 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .discount-section .container {
+    padding: 0 100px;
+  }
   .discount-up-to {
     display: inline-block;
     font-size: 76px;

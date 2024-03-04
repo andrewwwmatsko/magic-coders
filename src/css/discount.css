@@ -1,3 +1,5 @@
+@import 'animate.css';
+
 .discount-section {
   padding: 80px 0;
 }
@@ -28,6 +30,7 @@
   text-transform: uppercase;
   text-align: left;
   padding: 3px 10px 0 10px;
+  animation-iteration-count: infinite;
 }
 .taste-vitamins {
   color: #141414;

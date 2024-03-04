@@ -233,11 +233,9 @@ font-weight: 600;
  .mob-menu-link{
   font-size: 16px;
   line-height: 1.25;
+    width: 123px;
+      height: 44px;
  }
 
- .mob-menu-item{
-  width: 123px;
-  height: 44px;
  }
 
-}

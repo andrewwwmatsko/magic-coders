@@ -233,7 +233,7 @@ letter-spacing: -0.015em;
   width: 100%;
   align-items: flex-start;
   align-content: flex-start;
-  gap: 8px;
+  gap: 6px;
   flex-wrap: wrap;
   
   
@@ -356,9 +356,7 @@ width: 100%;
   line-height: 1; 
   letter-spacing: -0.015em;
 }
-.slash{
-  margin-left: 12px;
-}
+
 }
 
 @media screen and (min-width: 1280px) {
@@ -401,6 +399,7 @@ width: 100%;
   .social_list{
     flex-wrap: wrap;
     width: 357px;
+    gap: 12px;
   }
   .container_label{
     margin-top: 50px;

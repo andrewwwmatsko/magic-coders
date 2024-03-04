@@ -213,7 +213,7 @@ font-weight: 600;
 
 .mob-menu{
   width: 351px;
-  transform: translateX(100%);
+  transform: translateX(-100%);
   left: 100%;
   z-index: 999;
 }

@@ -218,7 +218,7 @@ letter-spacing: -0.02em;
   flex-direction: column;
   justify-content: start;
   align-items: start;
-  width: 295px;
+  width: 100%;
 }
 .social_text{
 color: rgba(251, 251, 251, 0.50);
@@ -230,11 +230,12 @@ letter-spacing: -0.015em;
 .social_list{
   margin-top: 14px;
   display: flex;
-  width: 295px;
+  width: 100%;
   align-items: flex-start;
   align-content: flex-start;
   gap: 8px;
   flex-wrap: wrap;
+  
   
 }
 .social_link{
@@ -255,6 +256,10 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social_icon{
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
+.slash{
+  margin-left: 6px;
+ 
 }
 
 @media screen and (min-width: 768px) {
@@ -350,6 +355,9 @@ width: 100%;
   font-size: 32px;
   line-height: 1; 
   letter-spacing: -0.015em;
+}
+.slash{
+  margin-left: 12px;
 }
 }
 

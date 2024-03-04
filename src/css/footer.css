@@ -27,16 +27,6 @@
 
 .footer-logo {
   cursor: pointer;
-  opacity: 1;
-  transition: opacity 500ms;
-}
-
-.footer-logo:hover {
-  opacity: 0.5;
-}
-
-.footer-logo:focus {
-  opacity: 0.5;
 }
 
 .footer-icon-item {
@@ -74,20 +64,16 @@
 
 .footer-nav-link {
   color: #fbfbfb;
-
   font-family: 'Inter Tight';
   font-size: 28px;
   font-weight: 600;
   line-height: 1;
   letter-spacing: -0.015em;
-  opacity: 1;
-  transition: opacity 500ms;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .footer-nav-link:hover {
-  opacity: 0.5;
-}
-.footer-nav-link:focus {
-  opacity: 0.5;
+  transform: scale(1.1);
 }
 
 .footer-adress {

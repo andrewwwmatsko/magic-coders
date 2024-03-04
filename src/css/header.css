@@ -218,6 +218,10 @@ font-weight: 600;
   z-index: 999;
 }
 
+.mob{
+  padding-top: 360px;
+}
+
 
 .menu-close-btn{
   width: 40px;

@@ -63,8 +63,8 @@
 }
 
 .footer-nav-link {
+  display: block;
   color: #fbfbfb;
-
   font-family: 'Inter Tight';
   font-size: 28px;
   font-weight: 600;

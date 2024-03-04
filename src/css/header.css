@@ -16,6 +16,10 @@
  position: absolute;
 }
 
+.header .container{
+  padding-top: 20px;
+}
+
 .header-wrap {
   display: flex;
   align-items: center;
@@ -23,9 +27,8 @@
 }
 
 .header-navigation{
-      display: flex;
-        align-items: center;
-        flex-grow: 1;
+        /* align-items: center;
+        flex-grow: 1; */
 }
 
 
@@ -95,12 +98,14 @@ width: 100%;
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+  padding-bottom: 40px;
 }
 
 .mob{
   display: flex;
 flex-direction: column;
 padding-top: 240px;
+
 }
 
 .menu-close-btn{

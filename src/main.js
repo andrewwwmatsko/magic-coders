@@ -26,3 +26,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
   });
 });
+
+//
+
+jQuery(document).on('click', '.mob-menu-item', function () {
+  jQuery('.mob-menu-item').closest('.mob-menu').removeClass('is-open').hide();
+});

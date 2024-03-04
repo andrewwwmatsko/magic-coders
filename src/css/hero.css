@@ -1,5 +1,5 @@
 .hero {
-  padding-top: 100px;
+  padding-top: 58px;
   padding-bottom: 410px;
   background-color: #576f35;
   background-image: url(../img/hero/mobile-hero1x-min.jpg);
@@ -39,7 +39,7 @@
 
 @media screen and (min-width: 768px) {
   .hero {
-    padding-top: 122px;
+    padding-top: 62px;
     padding-bottom: 589px;
     background-image: url(../img/hero/tablet-hero1x-min.jpg);
     background-size: 768px 539px;

@@ -63,13 +63,18 @@
 }
 
 .footer-nav-link {
+  display: block;
   color: #fbfbfb;
-
   font-family: 'Inter Tight';
   font-size: 28px;
   font-weight: 600;
   line-height: 1;
   letter-spacing: -0.015em;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-nav-link:hover {
+  transform: scale(1.1);
 }
 
 .footer-adress {
@@ -91,6 +96,15 @@
   font-weight: 600;
   line-height: 1.29;
   letter-spacing: 0.015em;
+}
+
+.footer-tel {
+  display: block;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-tel:hover {
+  transform: scale(1.1);
 }
 
 .footer-privacy {
@@ -200,10 +214,6 @@
   .footer-nav {
     flex-direction: row;
     gap: 121px;
-  }
-
-  .footer-nav-list {
-    /* width: 177px; */
   }
 
   .footer-adress-list {

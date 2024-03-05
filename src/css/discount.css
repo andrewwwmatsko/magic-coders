@@ -32,6 +32,8 @@
   padding: 3px 10px 0 10px;
   animation-iteration-count: infinite;
   animation-duration: 2s;
+  position: relative;
+  z-index: -999;
 }
 .taste-vitamins {
   color: #141414;

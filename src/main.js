@@ -20,3 +20,17 @@
 jQuery(document).on('click', '.mob-menu-item', function () {
   jQuery('.mob-menu-item').closest('.backdrop').removeClass('is-open');
 });
+
+//// stop scroll
+
+(() => {
+  const refs = {
+    body: document.querySelector('body'),
+  };
+
+  refs.body.addEventListener('click', toggleStopScroll);
+
+  function toggleStopScroll() {
+    refs.body.classList.toggle('fixed-position');
+  }
+})();

@@ -44,7 +44,9 @@
         </li>
       </ul>
     </nav>
-    <button class="header-button-shop" type="button">Shop now</button>
+    <button class="header-button-shop" type="button">
+      <a href="#fresh-harvest">Shop now</a>
+    </button>
 
     <button type="button" data-menu-open class="button-vector">
       <svg class="vector" width="26" height="20">
@@ -64,19 +66,25 @@
         <nav class="mob-menu-navigation">
           <ul class="mob-menu-list">
             <li class="mob-menu-item">
-              <a href="#how-it-works" class="mob-menu-link">How It Works</a>
+              <a href="#how-it-works" data-how-it-works class="mob-menu-link"
+                >How It Works</a
+              >
             </li>
             <li class="mob-menu-item">
-              <a href="#vegetables" class="mob-menu-link">Vegetables</a>
+              <a href="#vegetables" data-vegetables class="mob-menu-link"
+                >Vegetables</a
+              >
             </li>
             <li class="mob-menu-item">
-              <a href="#reviews" class="mob-menu-link">Reviews</a>
+              <a href="#reviews" data-reviews class="mob-menu-link">Reviews</a>
             </li>
           </ul>
         </nav>
       </div>
 
-      <button class="button-shop" type="button">Shop now</button>
+      <button class="button-shop" type="button" data-shopNowBtn>
+        <a href="#fresh-harvest" class="mob-menu-link">Shop now</a>
+      </button>
     </div>
   </div>
 </header>
@@ -383,7 +391,7 @@
   </div>
 </section>
 
-      <section class="fresh-harvest">
+      <section class="fresh-harvest" id="fresh-harvest">
   <div class="container container_main">
     <div class="container_title_fresh">
       <h2 class="title_fresh">

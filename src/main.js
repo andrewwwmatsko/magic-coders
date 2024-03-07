@@ -25,10 +25,13 @@ jQuery(document).on('click', '.mob-menu-item', function () {
 
 (() => {
   const refs = {
+    openModalBtn: document.querySelector('[data-menu-open]'),
+    closeModalBtn: document.querySelector('[data-menu-close]'),
     body: document.querySelector('body'),
   };
 
-  refs.body.addEventListener('click', toggleStopScroll);
+  refs.openModalBtn.addEventListener('click', toggleStopScroll);
+  refs.closeModalBtn.addEventListener('click', toggleStopScroll);
 
   function toggleStopScroll() {
     refs.body.classList.toggle('fixed-position');

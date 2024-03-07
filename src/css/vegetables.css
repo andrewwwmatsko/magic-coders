@@ -46,7 +46,7 @@
 .vegetables-item:hover {
   box-shadow: 0px 6px 6px rgba(170, 31, 31, 0.08),
     0px 1px 1px rgba(228, 79, 38, 0.16), 0px 2px 1px rgba(222, 52, 19, 0.08);
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .vegetables-name {

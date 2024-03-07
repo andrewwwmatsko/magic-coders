@@ -5,6 +5,7 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Green Harvest</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,7 +21,12 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body>
+  <body
+    data-aos="fade-up"
+    data-aos-duration="400"
+    data-aos-easing="ease"
+    data-aos-delay="0"
+  >
     <load ="partials/header.html" />
 
     <main>
@@ -34,6 +40,10 @@
 
     <load ="partials/footer.html" />
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script type="module" src="./main.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.7.1.min.js"

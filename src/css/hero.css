@@ -1,7 +1,10 @@
 .hero {
+  background-color: #576f35;
+}
+
+.hero .container {
   padding-top: 58px;
   padding-bottom: 410px;
-  background-color: #576f35;
   background-image: url(../img/hero/mobile-hero1x-min.jpg);
   background-repeat: no-repeat;
   background-size: 375px 370px;
@@ -9,11 +12,10 @@
 }
 
 @media (min-resolution: 192dpi) {
-  .hero {
+  .hero .container {
     background-image: url(../img/hero/mobile-hero2x-min.jpg);
   }
 }
-
 .hero-title {
   max-width: 335px;
   color: #fbfbfb;
@@ -31,21 +33,19 @@
   margin-top: 20px;
 }
 
-@media screen and (min-width: 320px), (max-width: 375px) {
-}
-
 /*::::::::::::::::::::::T A B L E T::::::::::::::::::::::
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 
 @media screen and (min-width: 768px) {
-  .hero {
+  .hero .container {
     padding-top: 62px;
     padding-bottom: 589px;
     background-image: url(../img/hero/tablet-hero1x-min.jpg);
     background-size: 768px 539px;
   }
+
   @media (min-resolution: 192dpi) {
-    .hero {
+    .hero .container {
       background-image: url(../img/hero/tablet-hero2x-min.jpg);
     }
   }
@@ -66,15 +66,16 @@
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 
 @media screen and (min-width: 1280px) {
-  .hero {
+  .hero .container {
     padding-top: 238px;
     padding-bottom: 50px;
     background-image: url(../img/hero/desktop-hero1x-min.jpg);
     background-size: 650px 800px;
     background-position: right;
   }
+
   @media (min-resolution: 192dpi) {
-    .hero {
+    .hero .container {
       background-image: url(../img/hero/desktop-hero2x-min.jpg);
     }
   }

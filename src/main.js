@@ -49,3 +49,7 @@ jQuery(document).on('click', '.button-shop', function () {
     refs.body.classList.toggle('fixed-position');
   }
 })();
+
+//// aos
+
+AOS.init();

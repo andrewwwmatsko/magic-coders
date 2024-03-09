@@ -111,8 +111,3 @@
     max-width: 1054px;
   }
 }
-
-.animate_animated {
-  position: relative;
-  z-index: -1;
-}

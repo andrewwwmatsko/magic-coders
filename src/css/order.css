@@ -28,8 +28,7 @@
     );
     display: flex;
     justify-content: center;
-    /* padding: 100px; */
-  }
+   }
 }
 
 .visually-hidden {
@@ -45,20 +44,14 @@
   overflow: hidden;
 }
 
-/* .order-container {
-  max-width: 100%;
-    background: linear-gradient(to bottom,
-          #7a3145 0% 44.76%,
-          #576f35 44.76% 100%);
-
-} */
-
-/* @media screen and (min-width: 768px) {
+.order-container {
+  /* max-width: 375px; */
+}
+@media screen and (min-width: 768px) {
   .order-container {
-   
-
+    /* max-width: 768px; */
   }
-} */
+}
 
 @media screen and (min-width: 1280px) {
   .order-container {
@@ -71,7 +64,7 @@
 .section-pictures {
   display: flex;
   justify-content: center;
-  /* background-color: #7A3145; */
+  background-color: #7a3145;
   padding: 40px 0px;
   /* margin: 0 auto; */
 }
@@ -87,16 +80,10 @@
     padding: 100px 0;
     min-width: 430px;
     padding-right: 100px;
-    /* padding-top: 0; */
   }
 }
 
 .section-instructions {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #576F35; */
   padding: 80px 0px;
 }
 
@@ -184,15 +171,6 @@
   }
 }
 
-/* @media screen and (min-width: 1280px) {
-  .list-steps {
-    display: flex;
-      flex-direction: column;
-      gap: 20px;
-      counter-reset: number 0
-  }
-} */
-
 .list-text::before {
   counter-increment: number;
   content: counter(number);
@@ -238,7 +216,6 @@
 }
 
 .list-text:hover {
-  /* transform: scale(1.1); */
   transform: scale(1.05);
 }
 
@@ -255,29 +232,3 @@
   color: #141414;
 }
 
-/* .point {
-  display: inline-flex;
-  background-color: #7A3145;
-  justify-content: center;
-  align-items: center;
-  min-width: 42px;
-  min-height: 42px;
-  border-radius: 50%;
-
-} */
-/* 
-.figures-number {
-  display: inline-flex;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 1;
-  letter-spacing: -0.4px;
-  color: #FBFBFB;
-  justify-content: center;
-  align-items: center;
-  min-width: 52px;
-  min-height: 52px;
-  border-radius: 50%;
-  background-color: rgba(122, 49, 69, 0.30);
-  margin-right: 24px;
-} */

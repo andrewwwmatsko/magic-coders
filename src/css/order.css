@@ -1,4 +1,5 @@
 .order {
+  max-width: 100%;
   background: linear-gradient(
     to bottom,
     #7a3145 0% 44.76%,
@@ -8,6 +9,7 @@
 
 @media screen and (min-width: 768px) {
   .order {
+    max-width: 100%;
     background: linear-gradient(
       to bottom,
       #7a3145 0% 54.64%,
@@ -18,6 +20,7 @@
 
 @media screen and (min-width: 1280px) {
   .order {
+    max-width: 100%;
     background: linear-gradient(
       to right,
       #7a3145 0% 49.25%,
@@ -42,18 +45,23 @@
   overflow: hidden;
 }
 
-.order-container {
-  /* max-width: 375px; */
-}
-@media screen and (min-width: 768px) {
+/* .order-container {
+  max-width: 100%;
+    background: linear-gradient(to bottom,
+          #7a3145 0% 44.76%,
+          #576f35 44.76% 100%);
+
+} */
+
+/* @media screen and (min-width: 768px) {
   .order-container {
-    /* max-width: 768px; */
+   
+
   }
-}
+} */
 
 @media screen and (min-width: 1280px) {
   .order-container {
-    /* max-width: 1280px; */
     display: flex;
     justify-content: center;
     margin: 0;
@@ -230,7 +238,8 @@
 }
 
 .list-text:hover {
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
+  transform: scale(1.05);
 }
 
 .order-text {
